@@ -1,7 +1,7 @@
 # Precommit hooks (format & lint before commit)
 platformdirs==2.4.0
 distlib==0.3.4
-filelock==3.4.0
+filelock==3.20.3
 cfgv==3.3.1
 toml==0.10.2
 identify==2.4.0
@@ -42,3 +42,5 @@ pytest-flask==1.2.0
 pytest-mock==3.6.1
 pytest-flask-sqlalchemy==1.0.2
 fuzzingbook==0.9.5
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
